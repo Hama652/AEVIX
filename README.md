@@ -6,7 +6,7 @@ This repository currently contains the software foundation only. Model code, tra
 
 ## Current Phase
 
-Phase 1 establishes the repository structure, shared infrastructure, and engineering standards that future model families will inherit.
+Phase 1 established the repository structure, shared infrastructure, and engineering standards. Phase 2 now adds the dashboard foundation while preserving the same architectural boundaries.
 
 Included in this phase:
 
@@ -16,6 +16,7 @@ Included in this phase:
 - shared utilities for paths, filesystem operations, environment handling, serialization, seeding, timers, and checkpoint metadata
 - registry, interface, exception, and base type layers for future components
 - initial tests and automation hooks for quality gates
+- dashboard backend and frontend foundations for future operations, training control, and observability
 
 ## Repository Principles
 
@@ -40,4 +41,4 @@ The package is designed for Python 3.12 with Black, Ruff, Pytest, and Mypy as th
 
 ## Next Phase
 
-After review, the next layer will add research-facing abstractions for experiment management, metric tracking, and stronger configuration validation while still avoiding model implementation.
+The next layer will extend the dashboard with real API integrations, authentication, experiment orchestration, and operational telemetry. Model implementation remains out of scope until the platform layer is complete.

@@ -3,6 +3,9 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv/
+.idea/
+.DS_Store
+.vscode/settings.json
 venv/
 env/
 build/
@@ -13,6 +16,13 @@ htmlcov/
 artifacts/
 checkpoints/
 logs/
+dashboard/frontend/node_modules/
+dashboard/frontend/dist/
+dashboard/frontend/.vite/
+dashboard/frontend/vite.config.js
+dashboard/frontend/vite.config.d.ts
+dashboard/backend/.venv/
+*.tsbuildinfo
 *.pyc
 *.pyo
 *.pyd
