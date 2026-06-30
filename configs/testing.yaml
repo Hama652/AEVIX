@@ -1,0 +1,13 @@
+runtime:
+  profile: testing
+  seed: 1234
+
+logging:
+  level: WARNING
+  console: false
+  file: false
+
+paths:
+  artifacts: artifacts/test
+  checkpoints: checkpoints/test
+  logs: logs/test

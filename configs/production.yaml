@@ -1,0 +1,13 @@
+runtime:
+  profile: production
+
+logging:
+  level: INFO
+  console: false
+  file: true
+  file_path: logs/production/aevix.log
+
+paths:
+  artifacts: artifacts/production
+  checkpoints: checkpoints/production
+  logs: logs/production

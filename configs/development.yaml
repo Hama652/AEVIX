@@ -1,0 +1,12 @@
+runtime:
+  profile: development
+
+logging:
+  level: DEBUG
+  console: true
+  file: false
+
+paths:
+  artifacts: artifacts/dev
+  checkpoints: checkpoints/dev
+  logs: logs/dev

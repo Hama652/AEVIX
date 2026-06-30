@@ -1,0 +1,22 @@
+runtime:
+  profile: distributed
+  distributed:
+    enabled: true
+    backend: nccl
+    world_size: 1
+    rank: 0
+    local_rank: 0
+    gradient_accumulation_steps: 1
+    mixed_precision: false
+    communication_timeout_seconds: 1800
+
+logging:
+  level: INFO
+  console: true
+  file: true
+  file_path: logs/distributed/aevix.log
+
+paths:
+  artifacts: artifacts/distributed
+  checkpoints: checkpoints/distributed
+  logs: logs/distributed
